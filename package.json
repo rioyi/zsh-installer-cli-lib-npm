@@ -1,0 +1,27 @@
+{
+  "name": "zsh-installer-cli",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rioyi/zsh-installer-cli-lib-npm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["zsh", "oh-my-zsh", "cli", "shell"],
+  "author": "rioyi <wilbert.angarita@gmail.com> (https://rioyi.dev)",
+  "license": "MIT",
+  "bugs": "https://github.com/rioyi/zsh-installer-cli-lib-npm/issues",
+  "homepage": "https://github.com/rioyi/zsh-installer-cli-lib-npm",
+  "description": "A CLI to install Zsh, set it as the default shell, and configure Oh My Zsh with plugins.",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^12.1.0",
+    "shelljs": "^0.8.5"
+  },
+  "bin": {
+    "zsh-installer": "./index.mjs"
+  }
+}
